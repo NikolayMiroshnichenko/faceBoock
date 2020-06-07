@@ -407,7 +407,7 @@
         font-size: 12px;
     }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1460px) {
     .ce-countdown--theme-10 div.digits {
         font-size: 18px;
         height: 40px;
