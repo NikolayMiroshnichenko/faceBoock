@@ -72,12 +72,17 @@ a {
     background: #C64EFF;
     border-radius: 10px;
 }
+.main-mobil,
+.mobile-header {
+    display: none;
+}
 .main {
     position: relative;
 }
 .main-date {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .main-date__date,
 .main-date__time {
@@ -112,7 +117,6 @@ a {
     background-position: center;
 }
 .main-content {
-    position: relative;
     width: 60%;
 }
 .main-content__title {
@@ -305,6 +309,9 @@ a {
     background-size: cover;
     margin-bottom: 120px;
 }
+.wrapper-content {
+    position: relative;
+}
 .wrapper-content__title {
     font-family: 'Gilroy';  
     font-size: 32px; 
@@ -319,6 +326,36 @@ a {
     text-align: center;
 
 }
+.wrapper-gif {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    background: url(../img/wrapper/nice.png);
+    mix-blend-mode: darken;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: 2s linear 0s normal none infinite running wrapper-gif;
+    -webkit-animation: 2s linear 0s normal none infinite running wrapper-gif;
+}
+@keyframes wrapper-gif {
+    0% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(0deg);
+    }
+  }
+@-webkit-keyframes wrapper-gif {
+    0% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(0deg);
+    }
+  }
 /* programs */
 .programs {    
     width: 60%;
