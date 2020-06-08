@@ -13,8 +13,8 @@
         font-size: 16px;
     }
     .main-date__time {
-        padding: 18px 12px;
-        font-size: 20px;
+        padding: 14px;
+        font-size: 16px;
     }
     .main-date__date::before {
         width: 25px;
@@ -23,11 +23,9 @@
     .main-content__title {
         font-size: 36px;
     }
+    .main-content-text,
     .main-content__des {
         font-size: 18px;
-    }
-    .main-btn {
-        width: 40%;
     }
     .advantage-list__des {
         font-size: 16px;    
@@ -59,7 +57,7 @@
         font-size: 16px;
     }
     .main-date__time {
-        padding: 14px 12px;
+        padding: 10px 12px;
         font-size: 16px;
     }
     .main-date__date::before {
@@ -69,13 +67,15 @@
     .main-content__title {
         font-size: 30px;
     }
+    .main-content-text,
     .main-content__des {
         font-size: 14px;
     }
-    .main-btn {
-        width: 30%;
-        padding: 20px 0;
-        font-size: 14px;
+    .main-content-text {
+        padding-top: 40px;
+    }
+    .main-bg-desing {
+        font-size: 260px;
     }
     .main-form {
         padding: 30px;
@@ -229,15 +229,16 @@
     .container {
         width: 740px;
     }
+    .main-wrapper {
+        height: 728px;
+    }
     .main-content__title {
         font-size: 24px;
     }
+    .main-content-text,
     .main-content__des {
         width: 80%;
         font-size: 12px;
-    }
-    .main-btn {
-        width: 50%;
     }
     .main-form {
         width: 38%;
@@ -301,10 +302,18 @@
     .container {
         width: 90%;
     }
+    .main-bg-desing,
     .main-date,
     .header-text,
     .nav {
         display: none;
+    }
+    .main-content-text {
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 60px;
     }
     .main-wrapper {
         height: auto;
@@ -352,11 +361,12 @@
         padding: 10px;
         color: #ffffff;
         font-size: 18px;
-        background: #C64EFF;
-        border-radius: 10px;
+        border-radius: 20px;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 50px;
         text-align: center;
+        border-radius: 30px;
+        border: 1px solid #ffffff;
     }
     .main-content {
         width: 100%;
@@ -374,11 +384,6 @@
     .main-content__des {
         width: 100%;
         font-size: 14px;
-    }
-    .main-btn {
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 80px;
     }
     .advantage {
         margin-bottom: 80px;
@@ -444,11 +449,11 @@
     }
     .programs-bottom__item {
         width: 100%;
-        padding-left: 10px;
+        padding-left: 14px;
     }
     .programs-bottom__second::before,
     .programs-bottom__first::before {
-        left: -10px;
+        left: -8px;
         width: 8px;
         height: 8px;
     }
@@ -464,6 +469,7 @@
     }
     .speker-name {
         bottom: 0;
+        font-size: 22px;
     }
     .speker-img {
         width: 100%;
@@ -487,6 +493,12 @@
         padding: 10px 20px;
     }
 }
+@media (max-width: 330px) {
+    .container {
+        width: 95%;
+    }
+}
+
 
 
 

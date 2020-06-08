@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body class="container-max">
     <section class="main-wrapper">
@@ -17,13 +16,13 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list__item">
-                        <a href="#">О Занятиях</a>
+                        <a href="#" class="anchors">О Занятиях</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#">О Спикере</a>
+                        <a href="#speker" class="anchors">О Спикере</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#">Программа</a>
+                        <a href="#" class="anchors">Программа</a>
                     </li>
                 </ul>
             </nav>
@@ -31,10 +30,10 @@
                 <p class="mobile-header__date">13-14 Июня</p>
                 <p class="mobile-header__time">19:00 Киев/Мск</p>
             </div>
-            <div class="header-text">НАЧИНАЮЩИМ</div>
+            <div class="header-text">Начинающим</div>
         </header>
         <div class="main container">
-            <div class="main-mobil">НАЧИНАЮЩИМ</div>
+            <div class="main-mobil">Начинающим</div>
             <div class="main-date">
                 <div><p class="main-date__date">13-14 Июня</p></div>
                 <div><p class="main-date__time">19:00 Киев/Мск</p></div>
@@ -48,13 +47,13 @@
                         мессенджер для регистрации</p>
                     <ul class="form-list">
                         <li class="form-list-item">
-                            <a href="#" class="form-list-item-btn form-list-item-btn-viber">Viber</a>
+                            <a href="#" class="form-list-item-btn form-list-item-btn-viber btn">Viber</a>
                         </li>
                         <li class="form-list-item">
-                            <a href="#" class="form-list-item-btn form-list-item-btn-telegram">Telegram</a>
+                            <a href="#" class="form-list-item-btn form-list-item-btn-telegram btn">Telegram</a>
                         </li>
                         <li class="form-list-item">
-                            <a href="#" class="form-list-item-btn form-list-item-btn-facebook">Facebook</a>
+                            <a href="#" class="form-list-item-btn form-list-item-btn-facebook btn">Facebook</a>
                         </li>
                     </ul>
                     <p class="form-text">Ваши данные не будут переданы 3-м лицам</p>
@@ -79,7 +78,8 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="main-btn">Принять Участие</a>
+                <div class="main-bg-desing">#</div>
+                <p class="main-content-text">Бронируя участие, получите серию подготовительных видео уроков совершенно <span>БЕСПЛАТНО</span> </p>
             </div>
             
         </div>    
@@ -169,9 +169,9 @@
 
             </ul>
         </div>  
-        <a href="#" class="programs-btn">Принять Участие</a>
+        <a href="#" class="programs-btn btn">Принять Участие</a>
     </section>
-    <section class="speker-wrapper container">
+    <section class="speker-wrapper container" id="speker">
         <h2 class="speker-wrapper-title">КТО ВЕДЕТ ОТКРЫТЫЕ ОНЛАЙН УРОКИ</h2>
         <div class="speker">
             <div class="speker-img">
@@ -187,7 +187,7 @@
                     <span class="speker-list__color">более 260 000$</span> </li>
                 <li class="speker-list__item">Более <span class="speker-list__bold">15 лет в бизнесе.</span></li>
             </ul>
-            <a href="#" class="speker-btn">Принять Участие</a>
+            <a href="#" class="speker-btn btn">Принять Участие</a>
         </div>
         <div class="speker-bg"></div>
     </section>
@@ -210,8 +210,10 @@
     </footer>
 
     <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.counteverest.min.js"></script>
+    <script src="js/jquery.counteverest.min.js"></script>
+    <script src="js/local-push.js"></script>
     <script src="js/timer.js"></script>
+    <script src="js/anchors.js"></script>
 </body>
 </html>
 

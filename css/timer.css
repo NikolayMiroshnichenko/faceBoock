@@ -448,6 +448,11 @@
         margin: 0 2px;
     }
 }
+@media (max-width: 330px) {
+    .ce-countdown--theme-10 div.digits {
+        width: 24px;
+    }
+}
 
 
 
